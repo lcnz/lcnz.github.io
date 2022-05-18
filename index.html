@@ -1,0 +1,54 @@
+---
+layout: splash
+author_profile: false
+description: "Welcome to my personal blog, enjoy it"
+title: "Luca Canuzzi - Site Under Construction"
+og_title: "Luca Canuzzi"
+
+header:
+    overlay_image: "/assets/images/header-home.jpg"
+    og_image: "/assets/images/og-default-header.jpg"
+excerpt: "<div class='header_box'><div class='author__avatar'><img src='/assets/images/avatar.png' itemprop='image'></div>
+<div class='social__links'>
+<a href='mailto:luca@lcanuzzi.com'><i class='fas fa-envelope' aria-hidden='true'></i></a>
+<a href='https://github.com/lcnz'><i class='fab fa-github' aria-hidden='true'></i></a>
+<a href='https://linkedin.com/in/canuzziluca'><i class='fab fa-linkedin' aria-hidden='true'></i></a>
+</div>
+</div>"
+
+feature_row:
+  - image_path: assets/images/thumb-blog.jpg
+    alt: "Blog"
+    title: "Blog"
+    excerpt: "Cyber stuff everything I learn and discover"
+    url: "/blog"
+  - image_path: assets/images/thumb-resources.jpg
+    alt: "Resources"
+    title: "Resources"
+    excerpt: "Usefull external resources"
+    url: "/blog"
+  - image_path: assets/images/thumb-about.jpg
+    alt: "About"
+    title: "About"
+    excerpt: "Hi, my name is Luca."
+    url: "/about"
+---
+
+<p align="center">
+  Cyber stuff and knowledge sharing  <br/>
+</p>
+
+<hr>
+
+{% include feature_row %}
+
+<div class="archive">
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
+</div>
