@@ -4,5 +4,11 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+
+# Hi 👋  I'm Luca
+
+I'm a **Security Engineer**. I play the role of **Security Operations Analyst** for my company's customer.
+
+## Profile
+
+Computer Science bachelor's degree graduated and 5+ years experience in Information Security consulting, working in a  multinational IT services and consulting firm. I gained experience in leading Security project initiatives, establishing, implementing and improving key client security objectives. Proficient in cross-functional collaboration with diverse teams and communication with stakeholders at all levels of a company. Problem-solving oriented with good analytical, organizational and time management skills. I love to learn and use my knowledge to solve problems.
