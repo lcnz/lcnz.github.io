@@ -7,7 +7,7 @@ order: 4
 
 # Hi 👋  I'm Luca
 
-I'm a **Security Engineer**. I play the role of **Security Operations Analyst** for my company's customer.
+I'm a **Security Engineer**.
 
 ## Profile
 
